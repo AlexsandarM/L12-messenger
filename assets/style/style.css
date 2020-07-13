@@ -1,5 +1,5 @@
 .max-height {
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 body {
@@ -11,12 +11,8 @@ body {
   border-radius: 8px;
 }
 
-span {
-  font-size: 0.8rem;
-}
-
-.delivered strong {
-  color: #06623b;
+#outputmsg {
+  color: #06623b!important;
   font-size: 1.2rem;
   /* text-transform: uppercase; */
 }
@@ -26,10 +22,15 @@ input {
   outline: none;
 }
 
-.delivered span.error {
+.error, .success {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.error {
   color: #c02323;
 }
 
-.delivered span.success {
+.success {
   color: #079258;
 }

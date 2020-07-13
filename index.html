@@ -22,15 +22,16 @@
 <body>
   <h1 class="text-center text-primary py-2">Sand Message</h1>
 
-  <div class="conainer">
+  <div class="container-fluid">
     <div class="row max-height align-items-center">
       <div class="messenger-container text-center col-11 col-md-6 mx-auto p-5">
         <h3 class="text-dark">A Message You Would like to Send:</h3>
-        <form action="">
-          <input type="text" class="input-group" id="message">
+        <form id="form" class="form-wrap">
+          <input type="text" class="input-group" id="input">
           <button class="btn btn-primary my-2">Send</button>
         </form>
-        <h3 class="delivered text-dark" id="deliveredmsg"></h3>
+        <small class="text-center my-2 d-flex flex-column"></small>
+        <h3 class="output text-dark" id="outputmsg"></h3>
       </div>
 
     </div>
